@@ -1,0 +1,193 @@
+.a-help-to {
+  position: relative;
+  letter-spacing: 0.15em;
+  line-height: 180%;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.cause-title {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 22px 0 20px;
+}
+.each-donation-is {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: 42px;
+  line-height: 55px;
+  font-weight: 500;
+  font-family: Montserrat;
+  color: #0a0117;
+  text-align: center;
+}
+.cause-heading,
+.cause-paragraphs {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.cause-heading {
+  flex: 1;
+  flex-direction: column;
+  gap: 12px;
+}
+.cause-paragraphs {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 60px;
+  box-sizing: border-box;
+}
+.we-advocate-for2 {
+  align-self: stretch;
+  position: relative;
+  font-size: 18px;
+  line-height: 180%;
+  color: #696f8c;
+  text-align: center;
+}
+.cause-paragraphs-parent {
+  width: 936px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px;
+  max-width: 100%;
+}
+.cause-cards,
+.cause-container {
+  width: 1420px;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.cause-container {
+  display: flex;
+  justify-content: center;
+}
+.cause-cards {
+  display: grid;
+  justify-content: flex-start;
+  gap: 32px;
+  grid-template-columns: repeat(3, minmax(339px, 1fr));
+  font-size: 16px;
+  color: #0a0117;
+}
+.menu12 {
+  position: relative;
+  font-size: 18px;
+  line-height: 24px;
+  font-family: "Work Sans";
+  color: #fff;
+  text-align: left;
+  display: inline-block;
+  min-width: 129px;
+}
+.arrow-icon5 {
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.arrow-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 4px 0 0;
+}
+.button4,
+.view-all-button {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.button4 {
+  cursor: pointer;
+  border: 0;
+  padding: 16px 40px;
+  background-color: #8b4513;
+  border-radius: 8px;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.view-all-button {
+  width: 1420px;
+  justify-content: center;
+  max-width: 100%;
+}
+.cause,
+.cause-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.cause {
+  flex: 1;
+  background-color: #fdf7f4;
+  flex-direction: column;
+  align-items: center;
+  padding: 112px 20px;
+  gap: 56px;
+}
+.cause-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 0 112px;
+  text-align: left;
+  font-size: 14px;
+  color: #8b4513;
+  font-family: "Work Sans";
+}
+@media screen and (max-width: 1300px) {
+  .cause-paragraphs {
+    padding-left: 30px;
+    padding-right: 30px;
+    box-sizing: border-box;
+  }
+  .cause-cards {
+    justify-content: center;
+    grid-template-columns: repeat(2, minmax(339px, 588px));
+  }
+  .cause {
+    padding-top: 73px;
+  }
+  .cause,
+  .cause-wrapper {
+    padding-bottom: 73px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 900px) {
+  .each-donation-is {
+    font-size: 34px;
+    line-height: 44px;
+  }
+  .cause-cards {
+    gap: 16px;
+    grid-template-columns: minmax(339px, 1fr);
+  }
+  .cause {
+    gap: 28px;
+    padding-top: 47px;
+  }
+  .cause,
+  .cause-wrapper {
+    padding-bottom: 47px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .each-donation-is {
+    font-size: 25px;
+    line-height: 33px;
+  }
+}

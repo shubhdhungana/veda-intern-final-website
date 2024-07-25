@@ -1,0 +1,10 @@
+.property-1frame-71-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 4px 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}

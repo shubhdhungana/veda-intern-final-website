@@ -1,0 +1,218 @@
+.who-we-are {
+  position: relative;
+  letter-spacing: 0.15em;
+  line-height: 180%;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.about-our-shelter {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: 42px;
+  line-height: 55px;
+  font-weight: 500;
+  font-family: Montserrat;
+  color: #0a0117;
+  text-align: center;
+}
+.who-we-are-and-our-mission-parent {
+  width: 815px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 12px;
+  max-width: 100%;
+}
+.we-advocate-for1 {
+  align-self: stretch;
+  position: relative;
+  font-size: 18px;
+  line-height: 180%;
+  color: #696f8c;
+  text-align: center;
+}
+.heading {
+  width: 936px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 24px;
+  max-width: 100%;
+}
+.your-donations-help {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 130%;
+  font-weight: 500;
+  font-family: inherit;
+}
+.paw-print {
+  font-weight: 600;
+}
+.as-a-pioneer-container1 {
+  width: 100%;
+}
+.as-a-pioneer-container {
+  width: 529px;
+  position: relative;
+  font-size: 18px;
+  line-height: 180%;
+  color: #696f8c;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  font-family: "Work Sans";
+}
+.your-donations-help-us-run-imp-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 16px 0 0;
+  box-sizing: border-box;
+  gap: 24px;
+  max-width: 100%;
+}
+.menu11 {
+  position: relative;
+  font-size: 18px;
+  line-height: 24px;
+  font-family: "Work Sans";
+  color: #fff;
+  text-align: left;
+}
+.arrow-icon3 {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.about-paragraph,
+.button3 {
+  display: flex;
+  justify-content: flex-start;
+}
+.button3 {
+  cursor: pointer;
+  border: 0;
+  padding: 16px 40px;
+  background-color: #8b4513;
+  border-radius: 8px;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+  white-space: nowrap;
+}
+.button3:hover {
+  background-color: #b36b38;
+}
+.about-paragraph {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px 0;
+  box-sizing: border-box;
+  gap: 48px;
+  min-width: 385px;
+  max-width: 100%;
+}
+.about-image-icon {
+  width: 747px;
+  position: relative;
+  border-radius: 8px;
+  max-height: 100%;
+  object-fit: cover;
+  max-width: 100%;
+}
+.about-us,
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.content {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 80px;
+  font-size: 36px;
+  color: #0a0117;
+  font-family: Montserrat;
+}
+.about-us {
+  width: 1420px;
+  flex-direction: column;
+  gap: 56px;
+}
+.about-us-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 20px 112px;
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: 14px;
+  color: #8b4513;
+  font-family: "Work Sans";
+}
+@media screen and (max-width: 1300px) {
+  .about-image-icon {
+    flex: 1;
+  }
+  .content {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 900px) {
+  .about-our-shelter {
+    font-size: 34px;
+    line-height: 44px;
+  }
+  .your-donations-help {
+    font-size: 29px;
+    line-height: 37px;
+  }
+  .about-paragraph {
+    gap: 24px;
+  }
+  .content {
+    gap: 40px;
+  }
+  .about-us {
+    gap: 28px;
+  }
+  .about-us-wrapper {
+    padding-bottom: 73px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .about-our-shelter {
+    font-size: 25px;
+    line-height: 33px;
+  }
+  .your-donations-help {
+    font-size: 22px;
+    line-height: 28px;
+  }
+  .about-paragraph {
+    min-width: 100%;
+  }
+  .content {
+    gap: 20px;
+  }
+  .about-us-wrapper {
+    padding-bottom: 47px;
+    box-sizing: border-box;
+  }
+}
